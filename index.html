@@ -6,43 +6,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio WEB</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <ul>
-        <li>
-            <a href="#sobre" alt="quem sou eu">Quem sou eu</a>
-        </li>
+    <nav>
 
-        <li>
-            <a href="#habilidades" alt="habilidades">Minhas habilidades</a>
-        </li>
+        <ul>
+            <li>
+                <a href="#sobre" alt="quem sou eu">Quem sou eu</a>
+            </li>
 
-        <li>
-            <a href="#links" alt="Perfil Profissional">Perfil Profissional</a>
-        </li>
+            <li>
+                <a href="#habilidades" alt="habilidades">Minhas habilidades</a>
+            </li>
 
-    </ul>
+            <li>
+                <a href="#links" alt="Perfil Profissional">Perfil Profissional</a>
+            </li>
+
+        </ul>
+
+    </nav>
 
 
-    <img src="./perfil.png" alt="Foto Perfil Rosalia" width="150px">
+    <img src="./perfil.png" id="image" alt="Foto Perfil Rosalia" width="200px" >
 
-    <p>Estudante Desenvolvimento WEB | Trybe <img
-            src="https://lh3.googleusercontent.com/z6PYSeq3Ya2DqcpXZqH3xC5F_f0rGTbwBt5VsnJxWgXIky7_jaND_2HYIiUX6g9nLE3s4Q=s85"
-            alt="logo Trybe" width="15px" height="15px"> | Turma 17 </p>
+    <p id="image_legend">
+        <b>Estudante Desenvolvimento WEB | Trybe 
+        <img src="https://lh3.googleusercontent.com/z6PYSeq3Ya2DqcpXZqH3xC5F_f0rGTbwBt5VsnJxWgXIky7_jaND_2HYIiUX6g9nLE3s4Q=s85" alt="logo Trybe" width="18px" height="18px"> | Turma 17 </b>
+    </p>
 
-    <p id="sobre">Olá! <br>
-        Me chamo <strong>Rosalia Padoin Oliveira</strong>
-        Sou natural de SC, mas atualmente moro no DF. Sou Bacharel em Administração e resolvi realizar uma transição
+    <p id="sobre" class="description">
+
+        Olá! <br>
+        Me chamo <strong id="name">Rosalia Padoin Oliveira</strong>.
+        Sou natural de <abbr title="Santa Catarina">SC</abbr>, mas atualmente moro no <abbr title="Distrito Federal">DF</abbr>. Sou Bacharel em Administração e resolvi realizar uma transição
         de carreira e decidi pela programação. <br> <br>
 
-        Esse é o meu portifólio construído durante o curso na 
-        <strong> <a href="https://www.betrybe.com/" target="_blank" alt="site Trybe">Trybe</a> </strong>.
+        Esse é o meu portifólio construído durante o curso na
+        <strong id="Trybe"> <a href="https://www.betrybe.com/" target="_blank" alt="site Trybe">Trybe</a> </strong>.
         No momento, estamos no Módulo 1 - Fundamentos da WEB, estudando Git, GitHub e iniciando HTML. <br><br>
 
         Sou uma pessoa que gosta muito de adquirir novos conhecimentos e, mais ainda, compartilhá-los.<br>
-      
+
     </p>
 
     <!--
@@ -73,9 +81,10 @@
 
     <p>
         Você pode obter mais informações acessando meu perfil no
-        <a href="https://github.com/Ro-padoin" target="_blank"  alt="perfil GitHub">GitHub</a>
+        <a href="https://github.com/Ro-padoin" target="_blank" alt="perfil GitHub">GitHub</a>
         e
-        <a href="https://www.linkedin.com/in/rosalia-padoin-oliveira/" target="_blank" alt="perfil Linkedin">Linkedin</a>
+        <a href="https://www.linkedin.com/in/rosalia-padoin-oliveira/" target="_blank"
+            alt="perfil Linkedin">Linkedin</a>
     </p>
 </body>
 
