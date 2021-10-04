@@ -5,11 +5,22 @@ body {
 
 }
 
+main {
+    display: flex;
+}
+section {
+    flex: 1;
+
+}
+
+section > p {
+    color: #40798C;
+    font-size: 20px;
+    font-family: italianno, sans-serif;
+}
+
 figure {
-    display: block;
-    position: absolute;
-    margin: 30px;
-    right: 0px;
+    margin: 40px;
     width: 450px;
 }
 
@@ -19,6 +30,7 @@ figure img {
     border-bottom-left-radius: 50px;
     border-top-right-radius: 50px;
     opacity: 0.8;
+    border: 6px dotted #9EC1A3;
 }
 
 img:hover {
@@ -26,19 +38,27 @@ img:hover {
 }
 
 figcaption {
+    font-family: italianno, sans-serif;
     font-size: 40px;
     color: #9EC1A3;
 }
 
-.menu {
+nav {
     color: lightblue;
     font-size: 20px;
     list-style-type:none;
-    margin: 0;
-    padding: 0;
+    margin-top: 20px;
+    padding: 2px;
+    border-bottom: 3px solid #40798C;
+    background: #CFE0C3;
 }
-
+    
 li {
     display: inline;
-    padding: 10px;    
+    padding: 15px;   
 }
+
+.menu {
+    text-decoration: none;
+}
+
