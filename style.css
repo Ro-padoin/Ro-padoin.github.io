@@ -20,8 +20,18 @@ img {
     border-top-right-radius: 50px;
 }
 
+
 img:hover {
     opacity: 1;
+}
+
+#Name {
+    font-display: block;
+    position: absolute;
+    right: 0px;
+    font-size: 35px;
+    font-family: serif;
+    color: #AA998F;
 }
 
 nav {
