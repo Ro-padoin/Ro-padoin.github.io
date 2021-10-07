@@ -10,14 +10,13 @@ body {
 }
 
 main {
+    height: 1560px;
     margin: 20px;
     width: 1560px;
-    height: 1560px;
 }
 
 .header {
-    background-color: #11151C ;
-    border: 4px solid #7D4E57;
+    border: 4px solid black;
     margin: 20px;
     padding: 30px;
     position: sticky;
@@ -33,7 +32,7 @@ main {
 }
 
 nav>ul>li>.list-header {
-    color: #78F9491;
+    color: black;
     font-family: font-family: 'Work Sans', sans-serif;
     font-size: 18px;
     font-weight: bolder;
@@ -44,57 +43,6 @@ nav>ul>li>.list-header {
     color: beige;
 }
 
-/*
-
-div {
+.about {
     display: flex;
-    align-items: top;
-   border: 4px solid #3F4238;
 }
-
-Estudante Desenvolvimento WEB
-
-b {
-    color: #1F363D;
-    font-size: 22px;
-    margin-top: 15px;
-    text-align: left;
-}
-
-Foto perfil
-
-.image {
-    width: 400px;
-    height: 300px;
-    margin-top: 15px;
-    margin-left: 30px;
-    border-radius: 280px;
-}
-
-/*Descricao ao lado da foto
-
-.description {
-    font-size: 22px;
-    margin-left: 15px;
-    align-text: justify;
-    margin-top: 30px;
-}
-
-.trybe {
-    width: 18px;
-    height: 18px;
-}
-
-/*meu nome
-
-#name{
-    color: #1F363D;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 24px;
-}
-
-h4 {
-    font-size: 22px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #1F363D;;
-} */
