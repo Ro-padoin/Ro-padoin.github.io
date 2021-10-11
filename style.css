@@ -60,13 +60,6 @@ nav>ul>li>.list-header {
     padding: 10px;
 }
 
-/*logo Trybe*/
-.trybe {
-    height: 20px;
-    vertical-align:text-bottom;
-    width: 20px;
-}
-
 /*descrição*/
 .description {
     border: 3px solid black;
