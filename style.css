@@ -7,27 +7,26 @@ body {
     background-color: #212529;
     font-family: sans-serif;
     font-size: 18px;
-    max-width: 1366px;
 }
 
 .cabecalho {
     background-image: url("./Imagens/Fundo_Header.png");
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 400px;
+    height: 400px;
     width: 100%;
 }
 
 .principal {
-    padding: 511px;
+    height: 511px;
 }
 
 .referencias {
     background: #495057;
-    padding: 400px;
+    height: 400px;
     width: 100%;
 }
 
 .rodape {
-    padding: 55px;
+    height: 55px;
 }
